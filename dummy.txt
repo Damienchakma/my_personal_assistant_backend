@@ -1,0 +1,5 @@
+This is a dummy document for testing RAG.
+It contains some specific information that the AI should be able to retrieve.
+The secret code is 12345.
+The project name is Project Phoenix.
+We assume this document is important.

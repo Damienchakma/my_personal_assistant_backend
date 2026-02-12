@@ -1,0 +1,527 @@
+
+
+This document has 16 pages.
+ [Turn over
+Cambridge O Level
+*2322594142*
+ADDITIONAL MATHEMATICS 4037/12
+Paper 1 Non-calculator October/November 2025
+ 2 hours
+You must answer on the question paper.
+No additional materials are needed.
+INSTRUCTIONS
+ ●Answer all questions.
+ ●Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ ●Write your name, centre number and candidate number in the boxes at the top of the page.
+ ●Write your answer to each question in the space provided.
+ ●Do not use an erasable pen or correction fluid.
+ ●Do not write on any bar codes.
+ ●Calculators must not be used in this paper.
+ ●You must show all necessary working clearly.
+INFORMATION
+ ●The total mark for this paper is 80.
+ ●The number of marks for each question or part question is shown in brackets [ ].
+DC (IP) 356564
+© UCLES 2025
+,	,
+* 0000800000001 *
+¬O. 4mHuOªE_|6W
+¬§t{[ªz¤Qpi:[p
+¥uuuUUuuEU5U
+DFD
+
+2
+4037/12/O/N/25© UCLES 2025
+List of formulas
+Equation of a circle with centre (a, b) and radius r. (x – a)
+2
+ + (y – b)
+2
+ = r
+ 2
+Curved surface area, A, of cone of radius r, sloping edge l. 
+rArl
+=
+Surface area, A, of sphere of radius r. 
+rAr4
+2
+=
+Volume, V, of pyramid or cone, base area A, height h. 
+VAh
+3
+1
+=
+Volume, V, of sphere of radius r. 
+rVr
+3
+4
+3
+=
+Quadratic equation For the equation ax
+ 2
+ + bx + c = 0,
+    
+x
+a
+bbac
+2
+4
+2
+!
+=
+--
+Binomial theorem 
+()
+......aba
+n
+ab
+n
+ab
+n
+r
+abb
+12
+nnnnnr
+rn122
++=++++++
+---
+J
+L
+K
+K
+J
+L
+K
+K
+J
+L
+K
+K
+N
+P
+O
+O
+N
+P
+O
+O
+N
+P
+O
+O
+,
+    where n is a positive integer and 
+()!!
+!
+n
+r
+nrr
+n
+=
+-
+J
+L
+K
+K
+N
+P
+O
+O
+Arithmetic series u
+n
+ = a + (n – 1)d
+    S
+n
+ = 
+2
+1
+n(a + l) = 
+2
+1
+n{2a + (n – 1)d}
+Geometric series u
+n
+ = ar
+n – 1
+    S
+n
+ = 
+()
+r
+ar
+1
+1
+n
+-
+-
+   (r ≠ 1)
+    S
+∞
+ = 
+r
+a
+1 -
+   (|r| < 1)
+Identities   sin
+2
+ A + cos
+2
+ A = 1
+    sec
+2
+ A = 1 + tan
+2
+ A
+    cosec
+2
+ A = 1 + cot
+2
+ A
+Formulas for ∆ABC 
+sinsinsinA
+a
+B
+b
+C
+c
+==
+    a
+2
+ = b
+2
+ + c
+2
+ – 2bc cos A
+				∆ = 
+2
+1
+ ab sin C
+* 0000800000002 *
+,	,
+ĬÍĊ®Ġ ́íÈõÏĪÅĊÞú ̧þ×
+ĬħòüÚĞîĆêāøĝđÄàģøĂ
+ĥåĥĕμμÅõĥμåąąÕĥĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+3
+4037/12/O/N/25© UCLES 2025
+[Turn over
+Calculators must not be used in this paper.
+1 (a) On the axes, sketch the graph of   
+()()()yxxx1525=---
+,   stating the intercepts with the axes.
+ [3]
+  
+O
+x
+y
+ (b) Hence solve the inequality   
+()()()xxx15250G---
+. [2]
+* 0000800000003 *
+,	,
+ĬÏĊ®Ġ ́íÈõÏĪÅĊÞü ̧þ×
+ĬħñûÒĬòöÏ÷ĉìÅ¼üģĈĂ
+ĥåĕÕõÕåĕõÅõąąμąÕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+4
+4037/12/O/N/25© UCLES 2025
+2 The polynomial p is such that   
+()xxaxxb213p
+32
+=+++
+,   where a and b are integers.
+ It is given that   
+x2+   is a factor of 
+()xp
+.
+ When 
+()xp
+ is divided by   x1+   there is a remainder of 6.
+ (a) Find the values of a and b. [4]
+ (b) Show that the equation 
+()x0p=
+ has only one real root. [3]
+* 0000800000004 *
+,	,
+ĬÍĊ®Ġ ́íÈõÏĪÅĊàú ̧Ā×
+ĬħñúÒĢĄóìùĂãħĘÚóðĂ
+ĥĕÅÕμÕåμĕĥąąÅμåÕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+5
+4037/12/O/N/25© UCLES 2025
+[Turn over
+3 The sum of the first two terms of a geometric progression is 9.
+ The sum to infinity of this geometric progression is 25.
+ (a) Find the possible values of the common ratio of this geometric progression. [4]
+ (b) Find the first term of this geometric progression for each possible value of the common ratio. [2]
+* 0000800000005 *
+,	,
+ĬÏĊ®Ġ ́íÈõÏĪÅĊàü ̧Ā×
+ĬħòùÚĨĀăÍÿïĦ³ĠþóĀĂ
+ĥĕμĕõμÅÕąĕÕąÅÕÅĕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+6
+4037/12/O/N/25© UCLES 2025
+4 (a) Show that   
+xx253
+2
+++
+   can be written in the form   
+()xab2
+2
+++
+,   where a and b are constants 
+to be found. [2]
+ (b) Hence write down the coordinates of the stationary point on the curve   
+yxx253
+2
+=++
+. [2]
+ A function f is such that   
+()xxx253f
+2
+=++
+,   for  
+xpH, where p is a constant.
+ It is given that 
+f
+1-
+ exists.
+ (c) (i) Write down the least possible value of p. [1]
+* 0000800000006 *
+,	,
+ĬÑĊ®Ġ ́íÈõÏĪÅĊÝüμþ×
+ĬħñùÕĞĨĉÕČþďÓĘğÛðĂ
+ĥÅĕĕõĕÅõÅõõąąÕĥÕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+7
+4037/12/O/N/25© UCLES 2025
+[Turn over
+  (ii) Using your value of p, sketch the graphs of 
+()yxf=
+ and 
+()yxf
+1
+=
+-
+.
+   Label each graph.
+   State the intercepts of each of the graphs with the axes. [5]
+   
+O
+x
+y
+* 0000800000007 *
+,	,
+ĬÓĊ®Ġ ́íÈõÏĪÅĊÝúμþ×
+ĬħòúÍĬĬùäîóÚćĠ»ÛĀĂ
+ĥÅĥÕμõåĕÕąåąąμąĕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+8
+4037/12/O/N/25© UCLES 2025
+5 (a) Write   
+lglgab543--
+   as a single base 10 logarithm. [3]
+ (b) Solve the equation   
+()loglogx150
+()x51
++-=
++
+. [4]
+* 0000800000008 *
+,		,
+ĬÑĊ®Ġ ́íÈõÏĪÅĊßüμĀ×
+ĬħòûÍĢĚð×ôüÑåÄęËøĂ
+ĥõμÕõõåμμåÕąÅμåĕÕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+9
+4037/12/O/N/25© UCLES 2025
+[Turn over
+6 Solve the equation   xx2105
+2
++-=. [5]
+* 0000800000009 *
+,	
+,
+ĬÓĊ®Ġ ́íÈõÏĪÅĊßúμĀ×
+ĬħñüÕĨĖĀâĆąĘñ¼½ËĈĂ
+ĥõÅĕμĕÅÕåÕąąÅÕÅÕÅÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+10
+4037/12/O/N/25© UCLES 2025
+7 The point A has coordinates (-2, 4).
+ The point B has coordinates (6, 10).
+ The point C has coordinates (12, 2).
+ (a) Find the gradients of the lines AB, AC and BC. [2]
+ (b) Hence find the equation of the circle which passes through the points A, B and C. [4]
+* 0000800000010 *
+,	,
+ĬÑĊ®Ġ ́íÈõÏĪÅĊÞü·þ×
+ĬħóûØĤĒĪÙûóûÉÂíóĀĂ
+ĥåÕĕõõąμĕĕÕÅÅĕåĕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+11
+4037/12/O/N/25© UCLES 2025
+[Turn over
+8 On the axes, sketch the graph of   
+()lnyx543=+
+.
+ State the intercepts with the axes.
+ State the equation of any asymptote.
+ [4]
+ 
+O
+x
+y
+* 0000800000011 *
+,	,
+ĬÓĊ®Ġ ́íÈõÏĪÅĊÞú·þ×
+ĬħôüÐĦĎĚàýþ®čºéóðĂ
+ĥååÕμĕĥÕąĥąÅÅõÅÕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+12
+4037/12/O/N/25© UCLES 2025
+9 A curve 
+()yxf=
+ is such that   
+()()xx25f
+2
+3
+=+
+-
+ll
+.
+ The curve has gradient 
+3
+2
+ at the point (2, 2).
+ (a) Find the coordinates of the stationary point on the curve. [11]
+* 0000800000012 *
+,	,
+ĬÑĊ®Ġ ́íÈõÏĪÅĊàü·Ā×
+ĬħôùÐĠĠďÛăąμ ̄ĖċģĈĂ
+ĥĕõÕõĕĥõĥÅõÅąõĥÕĥÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+13
+4037/12/O/N/25© UCLES 2025
+[Turn over
+Continuation of working space for Question 9(a).
+ (b) Determine the nature of this stationary point. [1]
+* 0000800000013 *
+,	,
+ĬÓĊ®Ġ ́íÈõÏĪÅĊàú·Ā×
+ĬħóúØĪĤğÞõüôīĞÏģøĂ
+ĥĕąĕμõąĕõμåÅąĕąĕõÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+14
+4037/12/O/N/25© UCLES 2025
+10 Show that   r()()sincossincoskd
+22
+r
+r
+2
+2
+3
+iiiii++-=
+`j
+y
+, where k is an integer to be found. [5]
+11    Solve the equation   
+()nCC4
+nn1
+5
+2
+7
+-=
+++
+. [3]
+* 0000800000014 *
+,	,
+ĬÍĊ®Ġ ́íÈõÏĪÅĊßù¶Ă×
+ĬħôüÕĨďėÐóïÏÇ·ÛÓðĂ
+ĥμąÕõĕÅμĕååąÅÕåÕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+15
+4037/12/O/N/25© UCLES 2025
+[Turn over
+12 A curve has equation   
+y
+x2
+e
+x
+2
+=
+-
+`j
+  for 
+x21
+.
+ (a) Find the value of 
+x
+y
+d
+d
+  when x0=. [4]
+ When  
+x0=, y is increasing at the rate of 0.5 units per second.
+ (b) Find the corresponding rate of change of x. [2]
+Question 13 is printed on the next page.
+* 0000800000015 *
+,	,
+ĬÏĊ®Ġ ́íÈõÏĪÅĊßû¶Ă×
+ĬħóûÍĢēħéąĂĚē¿ÿÓĀĂ
+ĥμõĕμõåÕąÕõąÅμÅĕμÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+16
+4037/12/O/N/25© UCLES 2025
+Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
+reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
+publisher will be pleased to make amends at the earliest possible opportunity.
+To avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge 
+Assessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download 
+at www.cambridgeinternational.org after the live examination series.
+Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
+Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
+13 For x11GG- it is given that  
+sinx23i=-
+  and  
+coty3
+2
+i=
+.
+ Find y in terms of x. [4]
+* 0000800000016 *
+,	,
+ĬÍĊ®Ġ ́íÈõÏĪÅĊÝù¶Ą×
+ĬħóúÍĬġĢÎċĉđ±ģÝÃøĂ
+ĥąåĕõõåõĥõąąąμĥĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
