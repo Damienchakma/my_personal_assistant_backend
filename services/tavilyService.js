@@ -28,6 +28,7 @@ class TavilyService {
             query,
             topic = 'general',
             max_results = 5,
+            search_depth = 'basic',
             include_answer = true,
             include_raw_content = false,
             include_images = false
@@ -43,11 +44,12 @@ class TavilyService {
         }
 
         try {
-            console.log(`🔍 Searching Tavily: ${query} (topic: ${topic})`);
+            console.log(`🔍 Searching Tavily: "${query}" (topic: ${topic}, depth: ${search_depth}, max: ${max_results})`);
 
             const response = await axios.post(TAVILY_API_URL, {
                 query,
                 topic,
+                search_depth,
                 max_results,
                 include_answer,
                 include_raw_content,
@@ -57,7 +59,7 @@ class TavilyService {
                     'Authorization': `Bearer ${TAVILY_API_KEY}`,
                     'Content-Type': 'application/json'
                 },
-                timeout: 10000
+                timeout: 15000
             });
 
             return {
@@ -133,6 +135,44 @@ class TavilyService {
 
         console.error(`❌ Error in TavilyService.search: ${error.message}`);
         return { success: false, error: message, code };
+    }
+    /**
+     * Extracts full content from specific URLs using the Tavily Extract API.
+     * @param {string[]} urls - Array of URLs to extract content from.
+     * @returns {Promise<object>} - Extracted content or error object.
+     */
+    async extract(urls) {
+        if (!urls || !Array.isArray(urls) || urls.length === 0) {
+            return { success: false, error: 'URLs array is required.', code: 'INVALID_URLS' };
+        }
+
+        if (!TAVILY_API_KEY) {
+            console.error('❌ Error in TavilyService.extract: TAVILY_API_KEY is not set.');
+            return { success: false, error: 'Extraction service configuration error.', code: 'CONFIG_ERROR' };
+        }
+
+        try {
+            console.log(`📄 Extracting content from ${urls.length} URLs...`);
+
+            const response = await axios.post('https://api.tavily.com/extract', {
+                urls
+            }, {
+                headers: {
+                    'Authorization': `Bearer ${TAVILY_API_KEY}`,
+                    'Content-Type': 'application/json'
+                },
+                timeout: 30000 // Extraction can take longer
+            });
+
+            return {
+                success: true,
+                results: response.data.results, // Raw results from Tavily
+                failed_results: response.data.failed_results
+            };
+
+        } catch (error) {
+            return this.handleError(error);
+        }
     }
 }
 

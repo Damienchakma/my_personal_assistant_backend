@@ -25,9 +25,11 @@
     "form-data": "^4.0.5",
     "groq-sdk": "^0.37.0",
     "langchain": "^1.2.18",
+    "mammoth": "^1.11.0",
     "multer": "^2.0.2",
     "pdf-parse": "^1.1.1",
-    "pg": "^8.11.3"
+    "pg": "^8.11.3",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"

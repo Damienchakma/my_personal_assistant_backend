@@ -1,141 +1,147 @@
-const { GoogleGenerativeAIEmbeddings } = require("@langchain/google-genai");
-const { Milvus } = require("@langchain/community/vectorstores/milvus");
-const { RecursiveCharacterTextSplitter } = require("@langchain/textsplitters");
 const pdfParse = require('pdf-parse');
-const groqService = require('./groqService');
+const mammoth = require('mammoth');
+const xlsx = require('xlsx');
 
-require('dotenv').config();
+const log = (emoji, msg, ...args) => console.log(`[DOC_EXTRACT] ${emoji} ${msg}`, ...args);
+const err = (msg, e) => console.error(`[DOC_EXTRACT] ❌ ${msg}`, e?.message || e);
 
-// Configuration
-const COLLECTION_NAME = 'rag_collection_v3_gemini';
-
-class RAGService {
-    constructor() {
-        this.embeddings = new GoogleGenerativeAIEmbeddings({
-            apiKey: process.env.GEMINI_API_KEY,
-            modelName: "gemini-embedding-001", // 768 dimensions
-        });
-
-        this.vectorStore = null;
-    }
-
+class DocumentExtractionService {
     /**
-     * Initialize or get the vector store instance
+     * Extract text from a file based on its MIME type / extension.
      */
-    async getVectorStore() {
-        if (!this.vectorStore) {
-            console.log('🔌 Connecting to Milvus Vector Store...');
+    async extractText(file) {
+        const mime = file.mimetype || '';
+        const name = (file.originalname || '').toLowerCase();
+        log('📝', `Extracting text | MIME: "${mime}" | File: "${file.originalname}" | Size: ${file.buffer?.length ?? 0} bytes`);
+
+        // PDF
+        if (mime === 'application/pdf' || name.endsWith('.pdf')) {
+            log('📝', 'Parser: pdf-parse');
+            const data = await pdfParse(file.buffer);
+            log('📝', `pdf-parse result: ${data.numpages} pages, ${data.text.length} chars`);
+            return data.text;
+        }
+
+        // Word (.docx / .doc)
+        if (
+            mime === 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' ||
+            mime === 'application/msword' ||
+            name.endsWith('.docx') || name.endsWith('.doc')
+        ) {
+            log('📝', 'Parser: mammoth (Word)');
+            const result = await mammoth.extractRawText({ buffer: file.buffer });
+            log('📝', `mammoth result: ${result.value.length} chars`);
+            return result.value;
+        }
+
+        // Excel
+        if (
+            mime === 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' ||
+            mime === 'application/vnd.ms-excel' ||
+            name.endsWith('.xlsx') || name.endsWith('.xls')
+        ) {
+            log('📝', 'Parser: xlsx');
+            const workbook = xlsx.read(file.buffer, { type: 'buffer' });
+            const texts = workbook.SheetNames.map(sheetName => {
+                const ws = workbook.Sheets[sheetName];
+                return `=== Sheet: ${sheetName} ===\n` + xlsx.utils.sheet_to_csv(ws);
+            });
+            const combined = texts.join('\n\n');
+            log('📝', `xlsx result: ${workbook.SheetNames.length} sheets, ${combined.length} chars`);
+            return combined;
+        }
+
+        // CSV
+        if (mime === 'text/csv' || name.endsWith('.csv')) {
+            log('📝', 'Parser: UTF-8 (CSV)');
+            const text = file.buffer.toString('utf-8');
+            log('📝', `CSV result: ${text.length} chars`);
+            return text;
+        }
+
+        // JSON
+        if (mime === 'application/json' || name.endsWith('.json')) {
+            log('📝', 'Parser: JSON.parse');
             try {
-                // Direct instantiation ensures we always pass the configuration
-                this.vectorStore = new Milvus(this.embeddings, {
-                    collectionName: COLLECTION_NAME,
-                    clientConfig: {
-                        address: process.env.ZILLIZ_URI,
-                        token: process.env.ZILLIZ_TOKEN,
-                    },
-                    collectionParams: {
-                        metric_type: "L2",
-                        auto_id: true,
-                        description: "RAG Collection for Personal Assistant",
-                        dimension: 3072,
-                        dim: 3072, // Add alias effectively
-                    },
-                    autoId: true,
-                    dim: 3072, // Add to root just in case
-                });
-                console.log('✅ Milvus Vector Store initialized.');
-            } catch (error) {
-                console.error('❌ Failed to initialize Milvus:', error);
-                throw error;
+                const parsed = JSON.parse(file.buffer.toString('utf-8'));
+                const text = JSON.stringify(parsed, null, 2);
+                log('📝', `JSON result: ${text.length} chars`);
+                return text;
+            } catch {
+                const text = file.buffer.toString('utf-8');
+                log('⚠️', 'JSON.parse failed, returning raw text');
+                return text;
             }
         }
-        return this.vectorStore;
+
+        // HTML / HTM
+        if (
+            mime === 'text/html' || mime === 'application/xhtml+xml' ||
+            name.endsWith('.html') || name.endsWith('.htm')
+        ) {
+            log('📝', 'Parser: HTML tag stripper');
+            const text = file.buffer.toString('utf-8').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+            log('📝', `HTML strip result: ${text.length} chars`);
+            return text;
+        }
+
+        // XML
+        if (mime === 'application/xml' || mime === 'text/xml' || name.endsWith('.xml')) {
+            log('📝', 'Parser: XML tag stripper');
+            const text = file.buffer.toString('utf-8').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+            log('📝', `XML strip result: ${text.length} chars`);
+            return text;
+        }
+
+        // Plain text / Markdown / RTF / log
+        if (
+            mime.startsWith('text/') ||
+            name.endsWith('.txt') || name.endsWith('.md') ||
+            name.endsWith('.rtf') || name.endsWith('.log')
+        ) {
+            log('📝', 'Parser: UTF-8 (plain text)');
+            const text = file.buffer.toString('utf-8');
+            log('📝', `Plain text result: ${text.length} chars`);
+            return text;
+        }
+
+        // Unknown — try UTF-8 as last resort
+        log('⚠️', `Unknown MIME type "${mime}" for "${file.originalname}". Attempting UTF-8 decode.`);
+        return file.buffer.toString('utf-8');
     }
 
     /**
-     * Ingest a document (PDF or Text)
+     * Process a document and extract its text.
      * @param {Object} file - Multer file object
      */
-    async ingestDocument(file) {
+    async processDocument(file) {
+        const startTime = Date.now();
+        log('📂', `─── EXTRACT START ───────────────────────────────────────`);
+        log('📂', `File: "${file.originalname}" | MIME: ${file.mimetype} | Size: ${file.size ?? file.buffer?.length} bytes`);
+
         try {
-            let text = '';
-
-            console.log(`📂 Ingesting file: ${file.originalname} (${file.mimetype})`);
-
-            // Extract text based on mime type
-            if (file.mimetype === 'application/pdf' || file.originalname.endsWith('.pdf')) {
-                const pdfData = await pdfParse(file.buffer);
-                text = pdfData.text;
-            } else {
-                text = file.buffer.toString('utf-8');
-            }
-
-            // Log a snippet but also save to file for inspection
-            console.log(`📄 Extracted Document Text (${text.length} chars):`, text.substring(0, 200) + '...');
-            require('fs').writeFileSync('last_extracted_text.txt', text);
+            // 1. Extract text
+            const text = await this.extractText(file);
 
             if (!text || text.trim().length === 0) {
-                throw new Error('Extracted text is empty');
+                const msg = 'Extracted text is empty. The file may be image-only or unreadable.';
+                err(msg);
+                return { success: false, error: msg };
             }
 
-            // Split text - Smaller chunks for better granularity on specific questions
-            const splitter = new RecursiveCharacterTextSplitter({
-                chunkSize: 800, // Increased slightly for markdown context
-                chunkOverlap: 100,
-            });
+            const elapsed = Date.now() - startTime;
+            log('✅', `Extraction complete: ${text.length} chars from "${file.originalname}" in ${elapsed}ms`);
+            log('📂', `─── EXTRACT END ─────────────────────────────────────────`);
 
-            const docs = await splitter.createDocuments([text], [{ source: file.originalname }]);
-            console.log(`🧩 Split into ${docs.length} chunks.`);
-
-            // Initialize Vector Store and add documents
-            console.log('💾 Saving chunks to Milvus...');
-
-            const vectorStore = await this.getVectorStore();
-            await vectorStore.addDocuments(docs);
-
-            console.log(`✅ Ingested ${docs.length} chunks from ${file.originalname}`);
-            return { success: true, chunks: docs.length };
+            return { success: true, text: text };
 
         } catch (error) {
-            console.error('❌ Ingestion Error:', error);
+            const elapsed = Date.now() - startTime;
+            err(`Extraction FAILED after ${elapsed}ms:`, error);
+            log('📂', `─── EXTRACT END (FAILED) ────────────────────────────────`);
             return { success: false, error: error.message };
-        }
-    }
-
-    /**
-     * Query documents and answer using Groq
-     * @param {string} message - User query
-     * @param {Array} history - Chat history
-     */
-    async query(message, history) {
-        try {
-            console.log(`🔎 Querying Milvus for: "${message}"`);
-            const vectorStore = await this.getVectorStore();
-
-            // value of k = 20 (Increased to ensure we capture relevant questions that might be scattered)
-            const relevantDocs = await vectorStore.similaritySearch(message, 10);
-
-            // Format context
-            const context = relevantDocs.map(doc => doc.pageContent).join('\n\n');
-
-            console.log(`🔍 Retrieved ${relevantDocs.length} relevant chunks`);
-            if (relevantDocs.length > 0) {
-                console.log('--- CONTEXT PREVIEW ---');
-                console.log(context.substring(0, 500) + '...');
-                console.log('-----------------------');
-            } else {
-                console.warn('⚠️ No relevant documents found via similarity search.');
-            }
-
-            // Delegate to Groq Service with context
-            return await groqService.chat(message, history, false, context);
-
-        } catch (error) {
-            console.error('❌ RAG Query Error:', error);
-            // Fallback to normal chat if RAG fails
-            return await groqService.chat(message, history);
         }
     }
 }
 
-module.exports = new RAGService();
+module.exports = new DocumentExtractionService();

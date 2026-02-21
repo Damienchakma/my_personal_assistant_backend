@@ -1,507 +1,588 @@
 
 
-This document has 16 pages.
+This document has 20 pages. Any blank pages are indicated.
  [Turn over
+*5855465235*
 Cambridge O Level
-*2322594142*
-ADDITIONAL MATHEMATICS 4037/12
-Paper 1 Non-calculator October/November 2025
- 2 hours
+PHYSICS 5054/21
+Paper 2 Theory May/June 2025
+ 1 hour 45 minutes
 You must answer on the question paper.
 No additional materials are needed.
 INSTRUCTIONS
- ●Answer all questions.
- ●Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
- ●Write your name, centre number and candidate number in the boxes at the top of the page.
- ●Write your answer to each question in the space provided.
- ●Do not use an erasable pen or correction fluid.
- ●Do not write on any bar codes.
- ●Calculators must not be used in this paper.
- ●You must show all necessary working clearly.
+ ●   Answer all questions.
+ ●   Use a black or dark blue pen. You may use an HB pencil for any diagrams or graphs.
+ ●   Write your name, centre number and candidate number in the boxes at the top of the page.
+ ●   Write your answer to each question in the space provided.
+ ●   Do not use an erasable pen or correction fluid.
+ ●   Do not write on any bar codes.
+ ●   You may use a calculator.
+ ●   You should show all your working and use appropriate units.
+ ●   Take the weight of 1.0 kg to be 9.8 N (acceleration of free fall = 9.8 m  / s
+2
+).
 INFORMATION
- ●The total mark for this paper is 80.
- ●The number of marks for each question or part question is shown in brackets [ ].
-DC (IP) 356564
+ ●   The total mark for this paper is 80.
+ ●   The number of marks for each question or part question is shown in brackets [ ].
+DC (DE/FC) 346528/4
 © UCLES 2025
 ,	,
 * 0000800000001 *
-¬O. 4mHuOªE_|6W
-¬§t{[ªz¤Qpi:[p
-¥uuuUUuuEU5U
+¬W. 4mHuOªE_|6W
+¬}KsP¡qbz.¤[x
+¥eUUu5EUEUuEeU
 DFD
 
 2
-4037/12/O/N/25© UCLES 2025
-List of formulas
-Equation of a circle with centre (a, b) and radius r. (x – a)
-2
- + (y – b)
-2
- = r
- 2
-Curved surface area, A, of cone of radius r, sloping edge l. 
-rArl
-=
-Surface area, A, of sphere of radius r. 
-rAr4
-2
-=
-Volume, V, of pyramid or cone, base area A, height h. 
-VAh
-3
-1
-=
-Volume, V, of sphere of radius r. 
-rVr
-3
-4
-3
-=
-Quadratic equation For the equation ax
- 2
- + bx + c = 0,
-    
-x
-a
-bbac
-2
-4
-2
-!
-=
---
-Binomial theorem 
-()
-......aba
-n
-ab
-n
-ab
-n
-r
-abb
-12
-nnnnnr
-rn122
-+=++++++
----
-J
-L
-K
-K
-J
-L
-K
-K
-J
-L
-K
-K
-N
-P
-O
-O
-N
-P
-O
-O
-N
-P
-O
-O
-,
-    where n is a positive integer and 
-()!!
-!
-n
-r
-nrr
-n
-=
--
-J
-L
-K
-K
-N
-P
-O
-O
-Arithmetic series u
-n
- = a + (n – 1)d
-    S
-n
- = 
-2
-1
-n(a + l) = 
-2
-1
-n{2a + (n – 1)d}
-Geometric series u
-n
- = ar
-n – 1
-    S
-n
- = 
-()
-r
-ar
-1
-1
-n
--
--
-   (r ≠ 1)
-    S
-∞
- = 
-r
-a
-1 -
-   (|r| < 1)
-Identities   sin
-2
- A + cos
-2
- A = 1
-    sec
-2
- A = 1 + tan
-2
- A
-    cosec
-2
- A = 1 + cot
-2
- A
-Formulas for ∆ABC 
-sinsinsinA
-a
-B
-b
-C
-c
-==
-    a
-2
- = b
-2
- + c
-2
- – 2bc cos A
-				∆ = 
-2
-1
- ab sin C
+5054/21/M/J/25© UCLES 2025
+1    Fig. 1.1 shows a skydiver falling vertically through the air.
+Fig. 1.1
+    In the first part of the fall, her speed increases and her acceleration decreases.
+    In the second part of the fall, her speed is constant.
+ (a) On Fig. 1.2 sketch the speed–time graph for the skydiver.
+  On your graph, mark one point where the speed of the skydiver is increasing with an A and 
+one point where the speed of the skydiver is constant with a B.
+0
+0time
+speed
+Fig. 1.2
+ [2]
+ (b) Explain how the graph shows that the acceleration decreases as the speed increases.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
 * 0000800000002 *
 ,	,
-ĬÍĊ®Ġ ́íÈõÏĪÅĊÞú ̧þ×
-ĬħòüÚĞîĆêāøĝđÄàģøĂ
-ĥåĥĕμμÅõĥμåąąÕĥĕĕÕ
+ĬÕĊ®Ġ ́íÈõÏĪÅĊÞú ̧þ×
+ĬýÉôÍĥĎėÙîĀÑÜáàäðĂ
+ĥõÅÕμÕąõĥąąÅąμåÕąÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 3
-4037/12/O/N/25© UCLES 2025
+5054/21/M/J/25© UCLES 2025
 [Turn over
-Calculators must not be used in this paper.
-1 (a) On the axes, sketch the graph of   
-()()()yxxx1525=---
-,   stating the intercepts with the axes.
+ (c) During the first part of the fall, there is a resultant vertical force acting downwards on the 
+skydiver.
+  (i) One of the vertical forces acting on the skydiver is her weight.
+   State the name of the other vertical force that acts on the skydiver.
+ ..................................................................................................................................... [1]
+   (ii) Explain why the resultant vertical force eventually becomes zero.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ (d) At one instant, the vertical force on the skydiver is 400 N downwards.
+  At the same instant, the wind causes an additional horizontal force of 100    N to the right to act 
+on the skydiver.
+  Draw a vector diagram to determine the resultant of the 400 N vertical force and the 100 N 
+horizontal force. Place an arrow on all of the forces to show their directions.
+  Determine the magnitude (size) of this resultant force and its direction to the vertical.
+ magnitude of resultant =  ........................................................... N
+ direction =  .............................................° to vertical
  [3]
-  
-O
-x
-y
- (b) Hence solve the inequality   
-()()()xxx15250G---
-. [2]
+ [Total: 9]
 * 0000800000003 *
 ,	,
-ĬÏĊ®Ġ ́íÈõÏĪÅĊÞü ̧þ×
-ĬħñûÒĬòöÏ÷ĉìÅ¼üģĈĂ
-ĥåĕÕõÕåĕõÅõąąμąÕąÕ
+Ĭ×Ċ®Ġ ́íÈõÏĪÅĊÞü ̧þ×
+ĬýÊóÕģĒħàČñĘĀÙüäĀĂ
+ĥõμĕõμĥĕõõÕÅąÕÅĕĕÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 4
-4037/12/O/N/25© UCLES 2025
-2 The polynomial p is such that   
-()xxaxxb213p
-32
-=+++
-,   where a and b are integers.
- It is given that   
-x2+   is a factor of 
-()xp
-.
- When 
-()xp
- is divided by   x1+   there is a remainder of 6.
- (a) Find the values of a and b. [4]
- (b) Show that the equation 
-()x0p=
- has only one real root. [3]
+5054/21/M/J/25© UCLES 2025
+2 (a) State the principle of moments.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ (b) An airline passenger wishes to check the weight of a suitcase that he carries as hand luggage 
+onto an aeroplane.
+  He uses a uniform plank of wood, pivoted at its centre, as shown in Fig. 2.1.
+three bags
+of sugar
+plank
+suitcase
+pivot
+80
+ cm90 cm
+Fig. 2.1
+  The plank is balanced with the suitcase on one side of the pivot and three bags of sugar, 
+each of mass 2.0 kg, on the other side.
+  The distances are shown on Fig. 2.1.
+  (i) Calculate the weight of one bag of sugar.
+ weight =  ..................................................... N   [1]
+   (ii) The maximum weight of a suitcase that can be carried onto the aeroplane is 67 N.
+   Determine whether the weight of the suitcase exceeds the maximum allowed.
+   Show a calculation in your answer.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
 * 0000800000004 *
 ,	,
-ĬÍĊ®Ġ ́íÈõÏĪÅĊàú ̧Ā×
-ĬħñúÒĢĄóìùĂãħĘÚóðĂ
-ĥĕÅÕμÕåμĕĥąąÅμåÕĕÕ
+ĬÕĊ®Ġ ́íÈõÏĪÅĊàú ̧Ā×
+ĬýÊòÕĩĤĢÛĆúďÞõÚ ́øĂ
+ĥÅĥĕμμĥμĕÕåÅÅÕĥĕąÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 5
-4037/12/O/N/25© UCLES 2025
+5054/21/M/J/25© UCLES 2025
 [Turn over
-3 The sum of the first two terms of a geometric progression is 9.
- The sum to infinity of this geometric progression is 25.
- (a) Find the possible values of the common ratio of this geometric progression. [4]
- (b) Find the first term of this geometric progression for each possible value of the common ratio. [2]
+ (c) A tall bus is tested for stability.
+  Fig. 2.2 shows the bus on a slope.
+  The centre of gravity of the bus is marked.
+centre of
+gravity
+P
+Fig. 2.2
+  (i) State what is meant by the ‘centre of gravity’ of an object.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+   (ii) When the slope is made very steep, the bus falls over by rotating about point P.
+   Explain why the bus falls over.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ [Total: 8]
 * 0000800000005 *
 ,	,
-ĬÏĊ®Ġ ́íÈõÏĪÅĊàü ̧Ā×
-ĬħòùÚĨĀăÍÿïĦ³ĠþóĀĂ
-ĥĕμĕõμÅÕąĕÕąÅÕÅĕąÕ
+Ĭ×Ċ®Ġ ́íÈõÏĪÅĊàü ̧Ā×
+ĬýÉñÍğĠĒÞôćÚúýþ ́ĈĂ
+ĥÅĕÕõÕąÕąåõÅÅμąÕĕÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 6
-4037/12/O/N/25© UCLES 2025
-4 (a) Show that   
-xx253
-2
-++
-   can be written in the form   
-()xab2
-2
-++
-,   where a and b are constants 
-to be found. [2]
- (b) Hence write down the coordinates of the stationary point on the curve   
-yxx253
-2
-=++
-. [2]
- A function f is such that   
-()xxx253f
-2
-=++
-,   for  
-xpH, where p is a constant.
- It is given that 
-f
-1-
- exists.
- (c) (i) Write down the least possible value of p. [1]
+5054/21/M/J/25© UCLES 2025
+3    A battery, a pulley and a motor are used to lift a load as shown in Fig. 3.1.
+battery
+load
+pulley
+motor
+Fig. 3.1
+ (a) Describe the transfers between energy stores that occur as the load is lifted.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ (b) The efficiency of the motor, pulley and load system is less than 100%.
+  (i) By comparing the input energy and the useful output energy, explain why the efficiency 
+is less than 100%.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+   (ii) Explain how the principle of conservation of energy applies in lifting the load.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ (c) The input power to the motor is 15 W.  The motor is used for 20 s.  The efficiency of the motor 
+is 60%.
+  Calculate the energy supplied to the load.
+ energy =  ...................................................... J   [2]
+ [Total: 8]
 * 0000800000006 *
 ,	,
-ĬÑĊ®Ġ ́íÈõÏĪÅĊÝüμþ×
-ĬħñùÕĞĨĉÕČþďÓĘğÛðĂ
-ĥÅĕĕõĕÅõÅõõąąÕĥÕÕÕ
+ĬÙĊ®Ġ ́íÈõÏĪÅĊÝüμþ×
+ĬýÊñÒĥĈĜæ÷öãĚõğĜøĂ
+ĥĕμÕõõąõÅÅÕÅąμåĕÅÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 7
-4037/12/O/N/25© UCLES 2025
+5054/21/M/J/25© UCLES 2025
 [Turn over
-  (ii) Using your value of p, sketch the graphs of 
-()yxf=
- and 
-()yxf
-1
-=
--
-.
-   Label each graph.
-   State the intercepts of each of the graphs with the axes. [5]
-   
-O
-x
-y
+4 (a) Evaporation of water from the surface of the skin causes cooling.
+  (i) Describe, using ideas about particles, how evaporation causes cooling.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+   (ii) State one difference between evaporation and boiling.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ (b) When a refrigerator is switched on, cooling coils placed at the top of the space inside the 
+refrigerator become cold. This causes a convection current which cools the air inside the 
+refrigerator. The refrigerator is shown in Fig. 4.1.
+cold cooling
+coils inside
+refrigerator
+convection current
+refrigerator
+pump
+Fig. 4.1
+  (i) Explain how the cooling coils cause a convection current in the air inside the refrigerator.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+   (ii) The food in the refrigerator is initially at a temperature of 20.0 °C.   The food has a mass of 
+3.6   kg and a specific heat capacity of 3000 J  / (kg   °C).
+   Calculate the final temperature of the food after 160 000    J of thermal energy is removed 
+from it.
+ final temperature =  .....................................................°C [2]
+ [Total: 7]
 * 0000800000007 *
 ,	,
-ĬÓĊ®Ġ ́íÈõÏĪÅĊÝúμþ×
-ĬħòúÍĬĬùäîóÚćĠ»ÛĀĂ
-ĥÅĥÕμõåĕÕąåąąμąĕÅÕ
+ĬÛĊ®Ġ ́íÈõÏĪÅĊÝúμþ×
+ĬýÉòÚģČĬÓāċĦ¾ý»ĜĈĂ
+ĥĕÅĕμĕĥĕÕμąÅąÕÅÕÕÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 8
-4037/12/O/N/25© UCLES 2025
-5 (a) Write   
-lglgab543--
-   as a single base 10 logarithm. [3]
- (b) Solve the equation   
-()loglogx150
-()x51
-+-=
-+
-. [4]
+5054/21/M/J/25© UCLES 2025
+5 (a) Fig. 5.1 is a diagram showing the arrangement of air particles as a longitudinal wave passes 
+through them.
+Fig. 5.1
+  (i) On Fig. 5.1, mark the centre of a compression with the letter C, and mark the centre of a 
+rarefaction with the letter R. [1]
+   (ii) Describe the difference between a compression and a rarefaction.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ (b) In a ripple tank, a water wave is produced by a wooden bar moving up and down on the 
+surface of water.
+  (i) The wooden bar makes 45 complete oscillations in 1.0 minute.
+   Calculate the frequency of the wave produced.
+ frequency =  .....................................................Hz [1]
+   (ii) The frequency of the water wave is increased by moving the wooden bar up and down 
+more quickly.
+   State what happens to the speed and what happens to the wavelength of the wave 
+produced.
+speed  ................................................................................................................................
+wavelength  ........................................................................................................................
+ [2]
 * 0000800000008 *
 ,		,
-ĬÑĊ®Ġ ́íÈõÏĪÅĊßüμĀ×
-ĬħòûÍĢĚð×ôüÑåÄęËøĂ
-ĥõμÕõõåμμåÕąÅμåĕÕÕ
+ĬÙĊ®Ġ ́íÈõÏĪÅĊßüμĀ×
+ĬýÉóÚĩúĝèÿĄĝĠáęČðĂ
+ĥåĕĕõĕĥμμĕõÅÅÕĥÕÅÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 9
-4037/12/O/N/25© UCLES 2025
+5054/21/M/J/25© UCLES 2025
 [Turn over
-6 Solve the equation   xx2105
-2
-+-=. [5]
+   (iii) The crests of the water wave move into the shallow region shown in Fig. 5.2.
+crest
+shallow region
+Fig. 5.2
+   On Fig. 5.2, draw the crests in the shallow region. [2]
+ (c) Describe what is meant by the diffraction of a water wave.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [1]
+ [Total: 8]
 * 0000800000009 *
 ,	
 ,
-ĬÓĊ®Ġ ́íÈõÏĪÅĊßúμĀ×
-ĬħñüÕĨĖĀâĆąĘñ¼½ËĈĂ
-ĥõÅĕμĕÅÕåÕąąÅÕÅÕÅÕ
+ĬÛĊ®Ġ ́íÈõÏĪÅĊßúμĀ×
+ĬýÊôÒğöčÑùíì¼Ù½ČĀĂ
+ĥåĥÕμõąÕåĥåÅÅμąĕÕÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 10
-4037/12/O/N/25© UCLES 2025
-7 The point A has coordinates (-2, 4).
- The point B has coordinates (6, 10).
- The point C has coordinates (12, 2).
- (a) Find the gradients of the lines AB, AC and BC. [2]
- (b) Hence find the equation of the circle which passes through the points A, B and C. [4]
+5054/21/M/J/25© UCLES 2025
+6    A student sets up a circuit to determine the resistance of a length of wire.
+    The circuit contains a battery of unknown e.m.f., a length of a wire used to make a resistor X, an 
+ammeter, a voltmeter and a variable resistor R.
+ (a) Fig. 6.1 shows part of the circuit diagram.
+XR
+Fig. 6.1
+  (i) On Fig. 6.1, complete the circuit diagram by adding one voltmeter and one ammeter in 
+suitable places to allow the determination of the resistance of X. [1]
+   (ii) Explain how X and R act as a variable potential divider.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
 * 0000800000010 *
 ,	,
-ĬÑĊ®Ġ ́íÈõÏĪÅĊÞü·þ×
-ĬħóûØĤĒĪÙûóûÉÂíóĀĂ
-ĥåÕĕõõąμĕĕÕÅÅĕåĕĥÕ
+ĬÙĊ®Ġ ́íÈõÏĪÅĊÞü·þ×
+ĬýÌóÓīòûêĈċÇĄãí ́ĈĂ
+ĥõõÕõĕÅμĕåõąÅõĥÕõÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 11
-4037/12/O/N/25© UCLES 2025
+5054/21/M/J/25© UCLES 2025
 [Turn over
-8 On the axes, sketch the graph of   
-()lnyx543=+
-.
- State the intercepts with the axes.
- State the equation of any asymptote.
- [4]
- 
-O
-x
-y
+ (b) The student determines the resistance of the resistor X for five different lengths of the 
+wire making it. The lengths of wire range from 20 cm to 60 cm.    The type of wire and the 
+cross-sectional area of the wire are kept constant.
+  Fig. 6.2 shows a graph of the results.
+0
+0
+204060
+length
+ / cm
+resistance
+ / Ω
+80100
+2
+4
+6
+Fig. 6.2
+  (i) State the relationship between the resistance of the wire and the length of the wire.
+ ..................................................................................................................................... [1]
+   (ii) Calculate the current in a 90 cm length of the wire when there is a potential difference 
+(p.d.) of 9.0 V across it.
+   Show your working.
+ current =  .......................................................A [3]
+   (iii) The p.d. across the wire making the resistor X is kept constant for all the measurements 
+of resistance.
+   Describe the relationship between the current in the wire and the length of the wire.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ (c) State how the resistance of a wire depends upon the cross-sectional area of the wire.
+ ............................................................................................................................................. [1]
+ [Total: 10]
 * 0000800000011 *
 ,	,
-ĬÓĊ®Ġ ́íÈõÏĪÅĊÞú·þ×
-ĬħôüÐĦĎĚàýþ®čºéóðĂ
-ĥååÕμĕĥÕąĥąÅÅõÅÕõÕ
+ĬÛĊ®Ġ ́íÈõÏĪÅĊÞú·þ×
+ĬýËôÛĝîċÏòöĂØÛé ́øĂ
+ĥõąĕμõåÕąÕåąÅĕąĕĥÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 12
-4037/12/O/N/25© UCLES 2025
-9 A curve 
-()yxf=
- is such that   
-()()xx25f
-2
-3
-=+
--
-ll
-.
- The curve has gradient 
-3
-2
- at the point (2, 2).
- (a) Find the coordinates of the stationary point on the curve. [11]
+5054/21/M/J/25© UCLES 2025
+7    Fig. 7.1 shows an alternating current (a.c.) power supply connected to a transformer.
+primary coil
+secondary coil
+output
+voltage
+iron core
+power
+supply
+Fig. 7.1
+ (a) Explain how an alternating current in the primary coil produces an alternating output voltage.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [3]
+ (b) A student uses a voltmeter set on a 0–10 V range to measure the input and output voltages. 
+She obtains the values shown in Table 7.1.
+Table 7.1
+input voltage / Voutput voltage / V
+1.22.4
+2.34.6
+4.89.6
+6.4no reading
+  (i) Suggest why no output voltage reading is obtained with this voltmeter when the input 
+voltage is 6.4 V.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
 * 0000800000012 *
 ,	,
-ĬÑĊ®Ġ ́íÈõÏĪÅĊàü·Ā×
-ĬħôùÐĠĠďÛăąμ ̄ĖċģĈĂ
-ĥĕõÕõĕĥõĥÅõÅąõĥÕĥÕ
+ĬÙĊ®Ġ ́íÈõÏĪÅĊàü·Ā×
+ĬýËñÛħĀþìðíĉö÷ċäĀĂ
+ĥÅÕĕõõåõĥõÕąąĕåĕõÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 13
-4037/12/O/N/25© UCLES 2025
+5054/21/M/J/25© UCLES 2025
 [Turn over
-Continuation of working space for Question 9(a).
- (b) Determine the nature of this stationary point. [1]
+   (ii) The number of turns on the primary coil is 48.
+   Calculate the number of turns on the secondary coil.
+ number of turns =  ......................................................... [2]
+ (c) The student uses an oscilloscope to display an alternating output voltage from the transformer.
+  Fig. 7.2 shows the front of the oscilloscope before it is connected to the transformer.
+1 division
+Y-gain
+timebase
+50
+ ms / division
+2.0 V
+ / division
+0
+Fig. 7.2
+  When the oscilloscope is connected to the output of the transformer, a trace representing the 
+alternating output voltage is displayed on the screen.
+  (i) On Fig. 7.2, draw a trace representing an alternating output voltage on the screen. [1]
+   (ii) Describe how to use the trace to measure the maximum value of the output voltage.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ [Total: 9]
 * 0000800000013 *
 ,	,
-ĬÓĊ®Ġ ́íÈõÏĪÅĊàú·Ā×
-ĬħóúØĪĤğÞõüôīĞÏģøĂ
-ĥĕąĕμõąĕõμåÅąĕąĕõÕ
+ĬÛĊ®Ġ ́íÈõÏĪÅĊàú·Ā×
+ĬýÌòÓġĄîÍĊĄÀâÿÏäðĂ
+ĥÅåÕμĕÅĕõąąąąõÅÕĥÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 14
-4037/12/O/N/25© UCLES 2025
-10 Show that   r()()sincossincoskd
-22
-r
-r
-2
-2
-3
-iiiii++-=
-`j
-y
-, where k is an integer to be found. [5]
-11    Solve the equation   
-()nCC4
-nn1
-5
-2
-7
--=
-++
-. [3]
+5054/21/M/J/25© UCLES 2025
+8    Plutonium-239 (
+23
+9
+9
+4
+Pu) is an isotope that is used as the fuel in some nuclear reactors.
+ (a) State the names of the types of particles found in a nucleus of plutonium-239, and state how 
+many there are of each type.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ (b) Fig. 8.1 shows the nuclear fission process that occurs within the fuel rods of the nuclear 
+reactor.
+94
+Pu
+neutron
+neutron
+neutron
+neutron
+fission
+fragment
+fission
+fragment
+239
+Pu
+Fig. 8.1
+  (i) Explain how the fission process produces a chain reaction.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+   (ii) Explain how control rods are used to increase and decrease the rate of the chain reaction 
+in a nuclear reactor.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
 * 0000800000014 *
 ,	,
-ĬÍĊ®Ġ ́íÈõÏĪÅĊßù¶Ă×
-ĬħôüÕĨďėÐóïÏÇ·ÛÓðĂ
-ĥμąÕõĕÅμĕååąÅÕåÕåÕ
+ĬÕĊ®Ġ ́íÈõÏĪÅĊßù¶Ă×
+ĬýËôÒğïĆßĀćģþÖÛĔøĂ
+ĥĥåĕõõąμĕĕąÅÅμĥĕμÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 15
-4037/12/O/N/25© UCLES 2025
+5054/21/M/J/25© UCLES 2025
 [Turn over
-12 A curve has equation   
-y
-x2
-e
-x
-2
-=
--
-`j
-  for 
-x21
-.
- (a) Find the value of 
-x
-y
-d
-d
-  when x0=. [4]
- When  
-x0=, y is increasing at the rate of 0.5 units per second.
- (b) Find the corresponding rate of change of x. [2]
-Question 13 is printed on the next page.
+ (c) Plutonium-239 decays by the emission of an alpha particle (α-particle).
+  State two differences between an alpha particle and a beta particle (β-particle).
+difference 1  ...............................................................................................................................
+ ...................................................................................................................................................
+difference 2  ...............................................................................................................................
+ ............................................................................................................................................. [2]
+ (d) Alpha particles from the radioactive source are detected in a cloud chamber or with a spark 
+counter.
+  (i) Draw a labelled diagram of either a cloud chamber or a spark counter.
+   Label the position of the radioactive source with an S.
+ [2]
+   (ii) State what causes the tracks in a cloud chamber or state what causes the sparks in a 
+spark counter.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+ [Total: 11]
 * 0000800000015 *
 ,	,
-ĬÏĊ®Ġ ́íÈõÏĪÅĊßû¶Ă×
-ĬħóûÍĢēħéąĂĚē¿ÿÓĀĂ
-ĥμõĕμõåÕąÕõąÅμÅĕμÕ
+Ĭ×Ċ®Ġ ́íÈõÏĪÅĊßû¶Ă×
+ĬýÌóÚĩóöÚúúæÚÞÿĔĈĂ
+ĥĥÕÕμĕĥÕąĥÕÅÅÕąÕåÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
 
 16
-4037/12/O/N/25© UCLES 2025
+5054/21/M/J/25© UCLES 2025
+9 (a) The life cycle of a star begins with a large cloud of dust and gas which collapses.
+  Five later stages of the life cycle of a very massive star are:
+black hole   protostar   red supergiant   stable star   supernova
+  Place these stages in Table 9.1 in the order in which they occur.
+Table 9.1
+ earlier time
+cloud of dust and gas
+...............................................
+...............................................
+...............................................
+...............................................
+...............................................
+ later time
+ [2]
+ (b) The original collapse of the cloud of dust and gas that formed the Sun was caused by an 
+inward force.
+  (i) State the name of the inward force.
+ ..................................................................................................................................... [1]
+   (ii) Further collapse is prevented by an outward force. The Sun will remain in the stable 
+stage of its life cycle for a few billion years.
+   Describe what causes the outward force.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+* 0000800000016 *
+,	,
+ĬÕĊ®Ġ ́íÈõÏĪÅĊÝù¶Ą×
+ĬýÌòÚģāóÝøñÝüĂÝĄðĂ
+ĥÕąÕõĕĥõĥÅåÅąÕåÕμÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+17
+5054/21/M/J/25© UCLES 2025
+ (c) One of the first supernovas ever observed is known as SN185. It was formed from the 
+explosion of a star in the Milky Way galaxy.
+  The remnants of SN185 are at a distance of 8200 light-years from Earth.
+  (i) State what is meant by a ‘light-year’.
+ ...........................................................................................................................................
+ ..................................................................................................................................... [1]
+   (ii) State the time that passed between the explosion that formed SN185 and the 
+electromagnetic radiation from the explosion reaching Earth.
+ ..................................................................................................................................... [1]
+   (iii) A recently observed supernova is SN2014J.
+   The remnants of SN2014J are 12 million light-years from Earth, outside the Milky Way.
+   There is no redshift seen in the electromagnetic radiation from the remnants of SN185 
+but a large redshift is seen in the electromagnetic radiation from the remnants of 
+SN2014J.
+   Explain this difference.
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ...........................................................................................................................................
+ ..................................................................................................................................... [2]
+ (d) Most of the atoms found in the early Universe were hydrogen and helium.
+  The Universe now contains atoms of heavier elements.
+  Explain how the heavier elements are formed.
+ ...................................................................................................................................................
+ ...................................................................................................................................................
+ ............................................................................................................................................. [2]
+ [Total: 10]
+* 0000800000017 *
+,	,
+Ĭ×Ċ®Ġ ́íÈõÏĪÅĊÝû¶Ą×
+ĬýËñÒĥýăÜĂĀĬàúùĄĀĂ
+ĥÕõĕμõąĕõμõÅąμÅĕåÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+18
+5054/21/M/J/25© UCLES 2025
+BLANK PAGE
+* 0000800000018 *
+,		,
+ĬÕĊ®Ġ ́íÈõÏĪÅĊàù ̧Ă×
+ĬýÉòÓġĉĥãïúćĘĄÉ¼ĈĂ
+ĥąĥĕõĕÅõÅõåąąõåÕąÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+19
+5054/21/M/J/25© UCLES 2025
+BLANK PAGE
+* 0000800000019 *
+,	
+,
+Ĭ×Ċ®Ġ ́íÈõÏĪÅĊàû ̧Ă×
+ĬýÊñÛħąĕÖĉćÂÄüč¼øĂ
+ĥąĕÕμõåĕÕąõąąĕÅĕĕÕ
+DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
+DFD
+
+20
+5054/21/M/J/25© UCLES 2025
 Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every 
 reasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the 
 publisher will be pleased to make amends at the earliest possible opportunity.
@@ -510,18 +591,11 @@ Assessment International Education Copyright Acknowledgements Booklet. This is p
 at www.cambridgeinternational.org after the live examination series.
 Cambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge 
 Local Examinations Syndicate (UCLES), which is a department of the University of Cambridge.
-13 For x11GG- it is given that  
-sinx23i=-
-  and  
-coty3
-2
-i=
-.
- Find y in terms of x. [4]
-* 0000800000016 *
-,	,
-ĬÍĊ®Ġ ́íÈõÏĪÅĊÝù¶Ą×
-ĬħóúÍĬġĢÎċĉđ±ģÝÃøĂ
-ĥąåĕõõåõĥõąąąμĥĕåÕ
+BLANK PAGE
+* 0000800000020 *
+,	,
+ĬÕĊ®Ġ ́íÈõÏĪÅĊÞù ̧Ą×
+ĬýÊôÛĝ÷ĔáćĀÉĢØ ̄ìĀĂ
+ĥμÅÕõõåμμåąąÅĕĥĕąÕ
 DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN                  DO NOT WRITE IN THIS MARGIN
 DFD
